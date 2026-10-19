@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Deep Music Office</title>
+  <meta name="description" content="Herramienta interna del canal Power music office para publicar sus videos en YouTube.">
+  <style>
+    :root { --bg: #f7f7f5; --text: #1d1f23; --muted: #5d636d; --line: #e2e2de; --accent: #2f6fdb; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #15171a; --text: #e7e8ea; --muted: #9aa1ab; --line: #2e3238; --accent: #7aa7f5; }
+    }
+    body { margin: 0; background: var(--bg); color: var(--text); padding: 0 16px;
+           font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+    main { max-width: 680px; margin: 0 auto; padding: 48px 0 64px; }
+    h1 { font-size: 1.9rem; margin: 0 0 4px; }
+    .lead { color: var(--muted); margin-top: 0; }
+    a { color: var(--accent); }
+    footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: .9rem; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Deep Music Office</h1>
+  <p class="lead">Herramienta interna del canal de YouTube <a href="https://www.youtube.com/channel/UCtyMWp74n0pfCQK7OAbK2zw">Power music office</a>.</p>
+
+  <p>Deep Music Office es una aplicación privada que usa el dueño del canal para preparar y publicar sus propios videos de música para trabajar y concentrarse. Se conecta a YouTube mediante la YouTube Data API para subir los videos, sus miniaturas y sus datos (título, descripción y etiquetas) al canal de su dueño.</p>
+
+  <p>No es un servicio para el público: no tiene usuarios registrados, no pide datos a terceros y solo accede a los canales de su propio dueño, que la autoriza desde su cuenta de Google.</p>
+
+  <p><a href="privacidad.html">Política de privacidad</a></p>
+
+  <footer>
+    Usa servicios de la API de YouTube. Al usarla aceptás las <a href="https://www.youtube.com/t/terms">Condiciones del Servicio de YouTube</a>
+    y la <a href="https://policies.google.com/privacy">Política de Privacidad de Google</a>.
+  </footer>
+</main>
+</body>
+</html>
